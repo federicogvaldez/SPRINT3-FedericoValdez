@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    object-fit: cover;
+    object-position: center;
+    width: 1000px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+.header nav{
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+    margin-left: 750px;
+}
+
+nav > a{
+    background-color: #607fb3;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 0px 12px 0px 12px;
+    box-shadow: 2px 2px 3px black;
+}
+
+a:hover{
+    background-color: #7fa964;
+}
+
+h2{
+    border-color: black;
+    border-style: solid;
+    padding-left: 400px;
+    padding-right: 400px;
+    width: 79%;
+}
+
+article{
+    display: inline-block;
+    position: relative;
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+div{
+    position: absolute;
+    top: 25%;
+    left: 150%;
+    width: 600px;
+}
+
+div > p{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: 'Afacad', sans-serif;
+}
+
+h2{
+    font-family: 'Afacad', sans-serif;
+}
+
+h3{
+    font-family: 'Afacad', sans-serif;
+}
+
+p{
+    font-family: 'Afacad', sans-serif;
+}
