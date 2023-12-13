@@ -100,6 +100,10 @@ p{
     text-align: center;
 }
 
+.titlesize{
+    font-size: 20px;
+}
+
 .game{
     text-decoration: underline;
     font-style: italic;
@@ -112,4 +116,33 @@ p{
 .gameemail{
     display: inline-block;
     margin-left: 345px;
+}
+
+.gamequestion{
+    margin-top: 30px;
+}
+
+.lista{
+    margin-top: 20px;
+}
+
+dd,dt,li{
+    margin-bottom: 15px;
+}
+
+.item{
+    margin: 0;
+}
+
+li{
+    margin-left: 20px;
+}
+
+tr,th,td{
+    padding: 10px;
+}
+
+table{
+    margin-bottom: 20px;
+    text-align: center;
 }
