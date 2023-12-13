@@ -1,96 +1,115 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
+}
+
+body{
+    margin: 10px 120px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    position: relative;
+    top: 8px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1:hover{
+    background-color: black;
+    color: grey;
 }
 
 .banner{
     object-fit: cover;
     object-position: center;
-    width: 1000px;
+    width: 100%;
     height: 300px;
-    display: inline-block;
-    position: relative;
     border-style: solid;
     border-top-color: #7fa964;
     border-right-color: #7fa964;
     border-bottom-color: #607fb3;
     border-left-color: #607fb3;
     border-width: 10px;
+    position: relative;
+    z-index: 1;
+    display: block;
 }
 
-a {
-    padding: 10px 20px;
-    border: unset;
-    border-radius: 5px;
+nav a {
+    padding: 5px 10px;
+    border-radius: 4px;
     color: #ffffff;
-    z-index: 1;
     background: #607fb3;
     position: relative;
-    font-weight: 1000;
     font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
+    box-shadow: 2px 2px 2px black;
     text-decoration: none;
     border-style: solid;
     border-color: black;
-   }
+    z-index: 2;
+    top: 5px;
+}
    
-   a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: none;
-    background-color: #7fa964;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-   }
-   
-   a:hover {
+nav a:hover {
     color: #e8e8e8;
     background-color: #7fa964;
-   }
-   
-   a:hover::before {
-    width: 100%;
-   }
-
-   h1{
-    text-align: right;
-    margin-right: 220px;
-    margin-bottom: 0;
-   }
-
-   div{
-    text-align: center;
-    display: inline-block;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    width: 860px;
-    height: 350px;
-   }
-
-   .logo{
-    width: 150px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    vertical-align: middle;
-    margin-bottom: 293px;
-    float: left;
 }
 
-   h2{
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    width: 1015px;
+h2{
+    border: 2px solid black;
+    text-align: start;
+}
+
+aside{
+    border-right: 2px solid black;
+    margin-top: 5px;
+}
+
+.logo{
+    width: 150px;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+}
+
+.informacion{
+    margin-top: 15px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+#contact{
+    margin-bottom: 10px;
+}
+
+.rules{
     text-align: center;
-   }
+}
+
+.game{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.gamephone{
+    display: inline-block;
+}
+
+.gameemail{
+    display: inline-block;
+    margin-left: 345px;
+}
