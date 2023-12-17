@@ -6,7 +6,8 @@
 }
 
 body{
-    margin: 10px 120px;
+    width: 70vw;
+    margin: 10px auto;
     border: 2px solid black;
     padding: 5px;
 }
@@ -144,16 +145,6 @@ h4{
     margin-bottom: 15px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container-2{
-    align-items: center;
-}
-
 .formtitle{
     margin-bottom: 0;
 }
@@ -165,6 +156,7 @@ h4{
 .form-8{
     display: flex;
     flex-direction: column;
+    width: 45vw;
 }
 
 .maps{
@@ -174,4 +166,15 @@ h4{
 
 .titlemaps{
     text-decoration: underline;
+}
+
+.formulario{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-1 div{
+    padding: 5px;
 }
